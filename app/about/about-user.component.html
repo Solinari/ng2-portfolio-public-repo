@@ -1,0 +1,8 @@
+<a (click)="goBack()" class="btn btn-sm btn-info">Go back</a>
+
+<div class="jumbotron text-center" *ngIf="user">
+	<h1>{{ user.name }} ({{ user.username }})</h1>
+	<img [src]="user.avatar" class="img-responsive img-circle">
+
+	<p class="card-bio">Future bio coming soon!</p>
+</div>
