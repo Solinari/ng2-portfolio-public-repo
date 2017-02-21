@@ -1,8 +1,8 @@
 "use strict";
-var router_1 = require('@angular/router');
-var home_component_1 = require('./home/home.component');
-var contact_component_1 = require('./contact/contact.component');
-var not_found_component_1 = require('./not-found/not-found.component');
+var router_1 = require("@angular/router");
+var home_component_1 = require("./home/home.component");
+var contact_component_1 = require("./contact/contact.component");
+var not_found_component_1 = require("./not-found/not-found.component");
 // type safety of only allow type Routes
 var appRoutes = [
     // redirect example
@@ -14,7 +14,8 @@ var appRoutes = [
     // note that home is just ''
     {
         path: '',
-        component: home_component_1.HomeComponent },
+        component: home_component_1.HomeComponent
+    },
     {
         path: 'about',
         loadChildren: 'app/about/about.module#AboutModule'

@@ -8,7 +8,6 @@
 		"experimentalDecorators": true,
 		"removeComments": false,
 		"noImplicitAny": false,
-		// this flag sets transpiler output to a ./dist folder
 		"outDir": "dist"
 	}
 }

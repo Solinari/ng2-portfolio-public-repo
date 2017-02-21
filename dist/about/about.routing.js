@@ -1,10 +1,10 @@
 "use strict";
-var router_1 = require('@angular/router');
-var about_component_1 = require('./about.component');
-var about_user_component_1 = require('./about-user.component');
-var about_section_component_1 = require('./about-section.component');
-var about_resolve_service_1 = require('./about-resolve.service');
-var about_user_resolve_service_1 = require('./about-user-resolve.service');
+var router_1 = require("@angular/router");
+var about_component_1 = require("./about.component");
+var about_user_component_1 = require("./about-user.component");
+var about_section_component_1 = require("./about-section.component");
+var about_resolve_service_1 = require("./about-resolve.service");
+var about_user_resolve_service_1 = require("./about-user-resolve.service");
 var aboutRoutes = [
     // parent is route children are an array where '' is root(parent)
     {

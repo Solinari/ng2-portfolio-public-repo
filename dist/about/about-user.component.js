@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
+var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var AboutUserComponent = (function () {
     function AboutUserComponent(route, router) {
         this.route = route;
@@ -27,14 +27,15 @@ var AboutUserComponent = (function () {
     AboutUserComponent.prototype.goBack = function () {
         this.router.navigate(['/about']);
     };
-    AboutUserComponent = __decorate([
-        core_1.Component({
-            templateUrl: "/app/about/about-user.component.html",
-            styleUrls: ["/app/about/about-user.component.css"]
-        }), 
-        __metadata('design:paramtypes', [router_1.ActivatedRoute, router_1.Router])
-    ], AboutUserComponent);
     return AboutUserComponent;
 }());
+AboutUserComponent = __decorate([
+    core_1.Component({
+        templateUrl: "/app/about/about-user.component.html",
+        styleUrls: ["/app/about/about-user.component.css"]
+    }),
+    __metadata("design:paramtypes", [router_1.ActivatedRoute,
+        router_1.Router])
+], AboutUserComponent);
 exports.AboutUserComponent = AboutUserComponent;
 //# sourceMappingURL=about-user.component.js.map
