@@ -4,7 +4,8 @@
 	padding: 30px;
 	text-align: center;
 }
-.profile-card .img-reponsive .img-circle img {
+.profile-card img {
 	max-width: 300px;
 	margin: 10px auto;
+	border-radius: 3px;
 }

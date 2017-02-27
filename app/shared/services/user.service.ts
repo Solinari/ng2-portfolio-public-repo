@@ -12,7 +12,6 @@ const usersPromise: Promise<User[]> = Promise.resolve([
 ]);
 
 @Injectable()
-
 export class UserService {
 
 	// get all users
@@ -22,7 +21,7 @@ export class UserService {
 	// find a specific user
 	getUser(username) {
 		// ES6 arrow function gives automatic returns in-line
-		return usersPromise.then(users => users.find(user => user.username === username))
+		return usersPromise.then(users => users.find(user => user.username === username));
 	}
 
 }

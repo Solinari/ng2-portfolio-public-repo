@@ -13,7 +13,7 @@ var AboutSectionComponent = (function () {
 }());
 AboutSectionComponent = __decorate([
     core_1.Component({
-        template: "\n\t\t<h2 class=\"text-center\">About Section</h2>\n\t\t\n\t\t<router-outlet></router-outlet>\n\t"
+        template: "\n\t\t\n\t\t<router-outlet></router-outlet>\n\t"
     })
 ], AboutSectionComponent);
 exports.AboutSectionComponent = AboutSectionComponent;

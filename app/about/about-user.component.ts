@@ -3,8 +3,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { User } from '../shared/models/user';
 
 @Component({
-	templateUrl: `/app/about/about-user.component.html`,
-	styleUrls: [`/app/about/about-user.component.css`]
+	templateUrl: `./app/about/about-user.component.html`,
+	styleUrls: [`./app/about/about-user.component.css`]
 })
 
 export class AboutUserComponent implements OnInit {

@@ -31,8 +31,8 @@ var AboutUserComponent = (function () {
 }());
 AboutUserComponent = __decorate([
     core_1.Component({
-        templateUrl: "/app/about/about-user.component.html",
-        styleUrls: ["/app/about/about-user.component.css"]
+        templateUrl: "./app/about/about-user.component.html",
+        styleUrls: ["./app/about/about-user.component.css"]
     }),
     __metadata("design:paramtypes", [router_1.ActivatedRoute,
         router_1.Router])

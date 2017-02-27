@@ -1,8 +1,12 @@
+.profile-card {
+	background: #f3f3f3;
+	border-radius: 4px;
+	padding: 30px;
+	text-align: center;
+}
+
 img {
 	max-width: 300px;
 	margin: 20px auto;
-}
-
-.img-reponsive .img-circle img {
 	border-radius: 3px;
 }
