@@ -10,3 +10,16 @@ img {
 	margin: 20px auto;
 	border-radius: 3px;
 }
+
+.profile-card .btn {
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 3px;
+	transition: 0.3s ease all;
+
+}
+
+.profile-card .btn:hover {
+	background:#6B6B6B;
+	color:#F7F7F7;
+}
