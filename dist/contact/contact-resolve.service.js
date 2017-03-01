@@ -9,24 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var router_1 = require("@angular/router");
-var ContactComponent = (function () {
-    function ContactComponent(route) {
-        this.route = route;
+var contact_service_1 = require("../shared/services/contact.service");
+var ContactContactsResolve = (function () {
+    function ContactContactsResolve(service) {
+        this.service = service;
     }
-    ContactComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.route.data.forEach(function (data) { return _this.contacts = data.contacts; });
+    ContactContactsResolve.prototype.resolve = function (route) {
+        // use .then() as this is a Promise 
+        return this.service.getContacts().then(function (contacts) { return contacts; });
     };
-    return ContactComponent;
+    return ContactContactsResolve;
 }());
-ContactComponent = __decorate([
-    core_1.Component({
-        selector: 'contact-page',
-        templateUrl: "./app/contact/contact.component.html",
-        styleUrls: ["./app/contact/contact.component.css"]
-    }),
-    __metadata("design:paramtypes", [router_1.ActivatedRoute])
-], ContactComponent);
-exports.ContactComponent = ContactComponent;
-//# sourceMappingURL=contact.component.js.map
+ContactContactsResolve = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [contact_service_1.ContactService])
+], ContactContactsResolve);
+exports.ContactContactsResolve = ContactContactsResolve;
+//# sourceMappingURL=contact-resolve.service.js.map

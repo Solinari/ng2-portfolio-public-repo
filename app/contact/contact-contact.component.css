@@ -1,0 +1,25 @@
+.contact-card {
+	background: #f3f3f3;
+	border-radius: 4px;
+	padding: 30px;
+	text-align: center;
+}
+
+img {
+	max-width: 300px;
+	margin: 20px auto;
+	border-radius: 3px;
+}
+
+.contact-card .btn {
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 3px;
+	transition: 0.3s ease all;
+
+}
+
+.contact-card .btn:hover {
+	background:#6B6B6B;
+	color:#F7F7F7;
+}

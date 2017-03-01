@@ -1,0 +1,7 @@
+<div class="jumbotron text-center contact-card" *ngIf="contact">
+	<h1>{{ contact.name }}</h1>
+	<a [href]="contact.url">
+		<img [src]="contact.icon" class="img-responsive">
+	</a>
+	<a (click)="goBack()" class="btn btn-sm btn-info">Go back</a>
+</div>

@@ -1,7 +1,6 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 // type safety of only allow type Routes
@@ -20,7 +19,9 @@ const appRoutes: Routes = [
 		path: 'about',
 		loadChildren: 'app/about/about.module#AboutModule'
 	},
-	{ path: 'contact', component: ContactComponent },
+	{ path: 'contact',
+	 loadChildren: 'app/contact/contact.module#ContactModule'
+	},
 	// match not found route to route to not found component order matters so define last since ** matches wildcard
 	{ path: '**', component: NotFoundComponent}
 ];
