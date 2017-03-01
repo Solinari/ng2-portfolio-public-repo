@@ -16,7 +16,7 @@ var contactRoutes = [
                 component: contact_component_1.ContactComponent,
                 resolve: {
                     // service
-                    users: contact_resolve_service_1.ContactContactsResolve
+                    contacts: contact_resolve_service_1.ContactContactsResolve
                 }
             },
             {

@@ -17,7 +17,7 @@ const contactRoutes: Routes = [
 				component: ContactComponent,
 				resolve: {
 					// service
-					users: ContactContactsResolve
+					contacts: ContactContactsResolve
 				}
 			},
 			{
