@@ -11,9 +11,7 @@
     "typings": "typings",
     "dev-postinstall": "typings install",
     "start": "node server.js",
-    "postinstall": "ng build --aot -prod",
-    "deploy": "git push origin master && git push heroku master"
-  },
+    "postinstall": "ng build --aot -prod",  },
   "keywords": [],
   "author": "",
   "license": "ISC",
