@@ -3,11 +3,13 @@
 }
 
 html {
+	/* for sticky footer*/
 	position: relative;
 	min-height: 100%;
 }
 
 body {
+	/* for sticky footer*/ 
 	background: #f3f3f3;
 	margin: 0 0 60px;
 	font-family: Arial, Helvetica, sans-serif;

@@ -1,0 +1,19 @@
+.home {
+	text-align: center;
+}
+
+.home-content {
+	padding-top: 130px;
+	line-height: 1;
+}
+
+.home-title {
+	margin: 0;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.home-content p {
+	font-size: 25px;
+	margin-bottom: 60px;
+}

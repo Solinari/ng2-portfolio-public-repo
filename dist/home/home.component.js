@@ -14,7 +14,8 @@ var HomeComponent = (function () {
 HomeComponent = __decorate([
     core_1.Component({
         selector: 'home-page',
-        template: "\n\t\tTest home page\n\t"
+        templateUrl: "./app/home/home.component.html",
+        styleUrls: ["./app/home/home.component.css"]
     })
 ], HomeComponent);
 exports.HomeComponent = HomeComponent;

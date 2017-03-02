@@ -1,11 +1,15 @@
-.contact-card {
-	background: #f3f3f3;
-	border-radius: 4px;
-	padding: 30px;
+.contact-section {
 	text-align: center;
 }
-.contact-card img {
-	max-width: 300px;
-	margin: 10px auto;
-	border-radius: 3px;
+
+.contact-title {
+	padding-top: 60px;
+	line-height: 1;
+	margin: 0;
+	font-size: 45px;
+}
+
+.contact-message {
+	font-size: 30px;
+	margin-bottom: 10px;
 }
