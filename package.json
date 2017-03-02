@@ -11,7 +11,8 @@
     "typings": "typings",
     "dev-postinstall": "typings install",
     "start": "node server.js",
-    "postinstall": "ng build --aot -prod",  },
+    "postinstall": "ng build --aot -prod"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
