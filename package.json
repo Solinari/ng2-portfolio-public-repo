@@ -4,15 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "dev-postinstall": "typings install",
-    "start": "node server.js",
-    "postinstall": "ng build --aot -prod",
-    "deploy": "git push origin master && git push heroku master"
+    "postinstall": "typings install"
   },
   "keywords": [],
   "author": "",
@@ -38,11 +35,5 @@
     "rxjs": "^5.0.1",
     "systemjs": "^0.19.39",
     "zone.js": "^0.7.4",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0"
-  },
-  "engines": {
-    "node": "4.4.7",
-    "npm": "4.4.0"
   }
 }
