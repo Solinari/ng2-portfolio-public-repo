@@ -10,12 +10,18 @@ var core_1 = require("@angular/core");
 var contactsPromise = Promise.resolve([
     {
         id: 1,
-        name: 'Github',
-        url: 'https://github.com/Solinari',
-        icon: './assets/images/GitHub-Mark-32px.png'
+        name: 'E-mail',
+        url: 'mailto:justin.tyme.dejesus@gmail.com',
+        icon: './assets/images/gmail.png'
     },
     {
         id: 2,
+        name: 'Github',
+        url: 'https://github.com/Solinari',
+        icon: './assets/images/GitHub-Mark-64px.png'
+    },
+    {
+        id: 3,
         name: 'Linkedin',
         url: 'https://www.linkedin.com/in/justintymecompiling/',
         icon: './assets/images/Linkedin-Logo-2C-34px-R.png'

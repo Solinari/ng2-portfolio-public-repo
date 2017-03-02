@@ -13,7 +13,8 @@ var ContactSectionComponent = (function () {
 }());
 ContactSectionComponent = __decorate([
     core_1.Component({
-        template: "\n\t\tThis is the Contact Section Component.\n\t\t<router-outlet></router-outlet>\n\t"
+        templateUrl: "./app/contact/contact-section.component.html",
+        styleUrls: ["./app/contact/contact-section.component.css"]
     })
 ], ContactSectionComponent);
 exports.ContactSectionComponent = ContactSectionComponent;

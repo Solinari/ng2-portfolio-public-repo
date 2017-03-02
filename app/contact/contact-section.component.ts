@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-	template: `
-		This is the Contact Section Component.
-		<router-outlet></router-outlet>
-	`
+	templateUrl: `./app/contact/contact-section.component.html`,
+	styleUrls: [`./app/contact/contact-section.component.css`]
 })
 
 export class ContactSectionComponent {}

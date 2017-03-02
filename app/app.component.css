@@ -45,10 +45,15 @@ header #main-navigation ul li a:hover {
 	color: #CEC8FF;
 }
 
+main {
+	background: #f3f3f3;
+}
 
 /* footer stylings */
 #footer {
-	/*top 4 do the sticky footer thing. but it looks dumb on responsive*/
+	position: absolute;
+	left: 0;
+	bottom: 0;
 	width: 100%;
 	height: 60px;
 	background: #FF7700;
