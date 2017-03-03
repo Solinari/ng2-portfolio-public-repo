@@ -21,6 +21,8 @@
 	<!-- load angular app with systemjs -->
 	<script src="node_modules/systemjs/dist/system.src.js"></script>
 	<script src="systemjs.config.js"></script>
+	<!-- for component-relative template urls -->
+	<script>window.module = 'aot';</script>
 	<script>
 		System.import('app').catch(function(err) {console.error(err); });
 	</script>

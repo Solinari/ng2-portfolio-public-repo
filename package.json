@@ -9,7 +9,8 @@
     "tsc:w": "tsc -w",
     "typings": "typings",
     "start": "node server.js",
-    "postinstall": "ng build -aot -prod"
+    "postinstall": "ng build -aot -prod",
+    "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,10 @@
     "@angular/cli": "^1.0.0-rc.0",
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
+    "rollup": "^0.41.4",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-uglify": "^1.0.1",
     "typescript": "^2.0.3",
     "typings": "^1.4.0"
   },
