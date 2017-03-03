@@ -9,7 +9,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "preinstall": "npm i tsc concurrently typings -g",
+    "preinstall": "npm i tsc concurrently typings -g && npm i typescript",
     "postinstall": "typings install"
   },
   "keywords": [],
