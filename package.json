@@ -4,19 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "dev-postinstall": "typings install",
     "start": "node server.js",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build -aot -prod"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@angular/cli": "^1.0.0-rc.0",
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
     "typescript": "^2.0.3",
