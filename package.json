@@ -9,6 +9,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
+    "preinstall": "npm i typings -g",
     "postinstall": "typings install"
   },
   "keywords": [],
