@@ -9,7 +9,7 @@
     "tsc:w": "tsc -w",
     "typings": "typings",
     "start": "node server.js",
-    "postinstall": "ng build -aot -prod",
+    "postinstall": "ng build -prod",
     "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js"
   },
   "keywords": [],
