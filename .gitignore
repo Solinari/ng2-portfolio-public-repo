@@ -46,6 +46,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+.editorconfig
 npm-debug.log
 node_modules/
 src/dist/
