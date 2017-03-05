@@ -16,10 +16,10 @@ const appRoutes: Routes = [
 	},
 	{
 		path: 'about',
-		loadChildren: 'app/about/about.module#AboutModule'
+		loadChildren: './dist/app/about/about.module#AboutModule'
 	},
 	{   path: 'contact',
-	    loadChildren: 'app/contact/contact.module#ContactModule'
+	    loadChildren: './dist/app/contact/contact.module#ContactModule'
 	},
 	// match not found route to route to not found component order matters so define last since ** matches wildcard
 	{ path: '**', component: NotFoundComponent}
