@@ -5,16 +5,15 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 // type safety of only allow type Routes
 const appRoutes: Routes = [
-	// redirect example
-	// {
-	// 	path: '',
-	// 	redirectTo: '/about',
-	// 	pathMatch: 'full'
-	// }
-	// note that home is just ''
 	{ 
 		path: '',
-		component: HomeComponent },
+		redirectTo: 'home',
+		pathMatch: 'full'
+	},
+	{
+		path: 'home',
+		component: HomeComponent
+	},
 	{
 		path: 'about',
 		loadChildren: 'app/about/about.module#AboutModule'
