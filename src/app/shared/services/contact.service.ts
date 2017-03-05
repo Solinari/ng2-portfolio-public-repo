@@ -7,19 +7,19 @@ const contactsPromise: Promise<Contact[]> = Promise.resolve([
 		id: 1,
 		name: 'E-mail',
 		url: 'mailto:justin.tyme.dejesus@gmail.com',
-		icon: 'src/assets/images/gmail.png'
+		icon: './assets/images/gmail.png'
 	},
 	{
 		id: 2,
 		name: 'Github',
 		url: 'https://github.com/Solinari',
-		icon: 'src/assets/images/GitHub-Mark-64px.png'
+		icon: './assets/images/GitHub-Mark-64px.png'
 	},
 	{
 		id: 3,
 		name: 'Linkedin',
 		url: 'https://www.linkedin.com/in/justintymecompiling/',
-		icon: 'src/assets/images/Linkedin-Logo-2C-34px-R.png'
+		icon: './assets/images/Linkedin-Logo-2C-34px-R.png'
 	},
 ]);
 
