@@ -20,7 +20,6 @@
     "pretest:once": "npm run build",
     "test:once": "karma start karma.conf.js --single-run",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "postinstall": "ng build -prod",
     "deploy": "git push origin master && git push heroku master"
   },
   "keywords": [],
