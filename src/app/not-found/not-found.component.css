@@ -1,0 +1,33 @@
+.not-found {
+	text-align: center;
+}
+
+.not-found-content {
+	padding-top: 130px;
+	line-height: 1;
+}
+
+.not-found-title {
+	margin: 0;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.not-found-content p {
+	font-size: 25px;
+	margin-bottom: 60px;
+}
+
+.not-found-content a {
+	color: #000;
+	text-decoration: none;
+	padding: 1px 3px;
+	border-radius: 3px;
+	transition: 0.3s ease all;
+}
+
+.not-found-content a:hover {
+	background:#6B6B6B;
+	color:#F7F7F7;
+}
+}
