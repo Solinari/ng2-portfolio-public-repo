@@ -1,8 +1,8 @@
-## To Build:##
+## To Build:
 
 ```$ npm install```
 
 
-## To Run in Browser:##
+## To Run in Browser:
 
 ```$ npm start```
