@@ -6,13 +6,14 @@
 		"sourceMap": true,
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
-		"removeComments": false,
-		"noImplicitAny": false,
 		"lib": [ "es2015", "dom"],
-		"outDir": "dist"
+		"removeComments": true,
+		"noImplicitAny": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"outDir": "aot"
 	},
 	"files": [
-		"src/app.module.ts",
+		"src/app/app.module.ts",
 		"src/main.ts"
 	],
 	"angularCompilerOptions": {
